@@ -16,6 +16,7 @@ Estrutura de pastas esperada (ajustável na constante MODELS_DIR):
         sarimax_model_residuals.csv
         lightgbm_model.joblib
         lightgbm_model_residuals.csv
+        prophet_model
 
 O ficheiro de resíduos deve conter, no mínimo, as colunas:
     data, y_real, y_previsto, residuo
